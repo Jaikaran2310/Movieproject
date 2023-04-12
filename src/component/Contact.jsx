@@ -1,7 +1,45 @@
-import React from 'react'
+import React from "react";
+import "./contact.css";
+import contact from "./contact.png";
 
-export default function Contact (){
+const Contact = () => {
   return (
-    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut est sed nobis consequatur, earum perspiciatis quidem sapiente quisquam eaque aperiam aliquid adipisci expedita quam modi quos itaque doloribus officiis at quia similique odit! Porro, facilis?</div>
+    <div>
+      <section className="contact">
+      <div className="contact-form">
+        <h1>
+          Contact <span>Us</span>
+        </h1>
+
+        <p>Any questions or remarks? Just write us a message!</p>
+        <form action="">
+          <input type="" placeholder="Your Name" required />
+          <input
+            type="email"
+            className="email"
+            id=""
+            placeholder="E-mail"
+            required
+          />
+          <input type="" placeholder="Write a Subject" required />
+          <textarea
+            className=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <input type="Submit"  value="submit" className="btn" />
+        </form>
+        </div>
+        <div className="contact-img">
+          <img src={contact} alt="pic"/>
+        </div>
+      
+      </section>
+    </div>
   );
-}
+};
+
+export default Contact;

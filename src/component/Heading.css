@@ -1,0 +1,15 @@
+.Heading{
+    background-image: url('../movie-background.jpg');
+      text-align: center;
+      height: 60px;
+      font-size: 43px;
+      font-weight: bolder;
+      border: 0px solid  rgb(4, 20, 54);
+      
+    }
+    .filmy{
+        color: #d10d0d;
+      }
+      .verse{
+        color:#4e98bf;
+      }

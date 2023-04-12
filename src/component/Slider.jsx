@@ -1,10 +1,12 @@
 import { Carousel } from "flowbite-react";
 
 export default function Slider() {
-    return(<div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-    <Carousel>
+    return(
+      
+    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+    <Carousel >
       <img
-        src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        src="https://www.shutterstock.com/image-illustration/movie-reviews-isolated-on-special-600w-1152605072.jpg"
         alt="..."
       />
       <img

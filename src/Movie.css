@@ -1,0 +1,8 @@
+.background{
+    background-image:url('./movie-background.jpg') ;
+  }.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }

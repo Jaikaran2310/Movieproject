@@ -1,0 +1,94 @@
+[
+
+{
+    "ID" : "1",
+"Title" :" Name: The Pale Blue Eye",
+"Year":" Year: 2023 ",
+"Duration": "Duration: 143 min",
+"img": "https://flixpatrol.com/runtime/cache/files/posters/w/w350/wvv8hdwteucgmnjmlhxtwfvndjl.webp"
+},
+
+{
+    "ID" : "2",
+    "Title" :" Name: Murder Mystery 2",
+    "Year":" Year: 2023 ",
+    "Duration": "Duration: 127 min ",
+    "img": "https://flixpatrol.com/runtime/cache/files/posters/w/w350/wdffzv8giiwy6xr4t7hwbwtuwpl.webp"
+    },
+
+    {
+        "ID" : "3",
+        "Title" :" Name: Wednesday",
+        "Year":" Year: 2022 ",
+        "Duration": "Duration: 133 min",
+        "img": "https://flixpatrol.com/runtime/cache/files/posters/9/w350/9pfonbhy4cqy7jz20npmygczokv.webp"
+        },
+
+        {
+            "ID" : "4",
+            "Title" :" Name: Ginny & Georgia",
+            "Year":" Year: 2021",
+            "Duration": "Duration: 163 min",
+            "img": "https://flixpatrol.com/runtime/cache/files/posters/e/w350/e4aqizyq8eetgnzmq6wiffqozbz.webp"
+            },
+        
+            {
+                "ID" : "5",
+                "Title" :"Name: Luther: The Fallen Sun ",
+                "Year":" Year: 2023 ",
+                "Duration": "Duration: 127 min",
+                "img": "https://flixpatrol.com/runtime/cache/files/posters/v/w350/vfvuks8ycnxwnjkcklxipc9poe.webp"
+                },
+       
+                {
+                    "ID" : "6",
+                    "Title" :"Name: We Have a Ghost ",
+                    "Year":" Year: 2022",
+                    "Duration": "Duration: 166 min",
+                    "img": "https://flixpatrol.com/runtime/cache/files/posters/x/w350/xo0fgauoeevq7kskemwypyglvnf.webp"
+                    },
+                          {
+                            "ID" : "7",
+                            "Title":"Name: The Glory",
+                            "Year":"Year: 2022",
+                            "Duration":"Duration: 171 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/k/w350/kqsez4byitnbitav1tjnx1a6iff.webp"
+                          },     
+                          {
+                            "ID" : "8",
+                            "Title":"Name: The Night Agent",
+                            "Year":"Year: 2023",
+                            "Duration":"Duration: 139 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/x/w350/xjsx6rgeghl2tuqkimo6bz2kzvo.webp"
+                          },  
+                          {
+                            "ID" : "9",
+                            "Title":"Name: Physical: 100",
+                            "Year":"Year: 2023",
+                            "Duration":"Duration: 141 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/l/w350/lgxjcx4l31tfmh4gtj59he9dzal.webp"
+                          },  
+                          {
+                            "ID" : "10",
+                            "Title":"Name: Outer Banks",
+                            "Year":"Year: 2020",
+                            "Duration":"Duration: 159 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/o/w350/ovdgo2lpfwdvrfvscaqo9amiiw.webp"
+                          },                               
+                          {
+                            "ID" : "11",
+                            "Title":"Name: Til Money Do Us Part",
+                            "Year":"Year: 2022",
+                            "Duration":"Duration: 147 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/w/w350/wwlpy4zmujdelcowb4ph9lgo5ew.webp"
+                          },  
+                          {
+                            "ID" : "12",
+                            "Title":"Name: Kaleidoscope",
+                            "Year":"Year: 2023",
+                            "Duration":"Duration: 139 min",
+                            "img":"https://flixpatrol.com/runtime/cache/files/posters/9/w350/98dfqcrpunavfzgfhgfu284749a.webp"
+                          } 
+                       
+                          
+]
