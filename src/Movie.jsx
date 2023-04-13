@@ -9,6 +9,7 @@ export const Movie = () => {
         {data.map((element) => {
           return (
             <Movies
+            key={element.ID}
               Title={element.Title}
               Duration={element.Duration}
               Year={element.Year}

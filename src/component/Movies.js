@@ -4,6 +4,7 @@ import { Rating } from "flowbite-react";
 
 function Movies({ Title, Year, Duration, img }) {
   return (
+    <>
     <div className="Movie">
       <img className="pic" src={img} alt="pic" />
       <p>
@@ -19,6 +20,7 @@ function Movies({ Title, Year, Duration, img }) {
       <p>{Duration}</p>
       <p>{Year}</p>
     </div>
+    </>
   );
 }
 
