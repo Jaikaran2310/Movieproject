@@ -8,6 +8,7 @@ import { Routes,Route, BrowserRouter } from 'react-router-dom'
 import Contact from './component/Contact';
 import Home from './component/Home';
 import About from './component/About';
+import Error from './component/Error';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
@@ -19,6 +20,7 @@ root.render(
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Home' element={<Home/>}/>
+      <Route path='*' element={<Error/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

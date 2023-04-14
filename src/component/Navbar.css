@@ -1,22 +1,22 @@
-.Nav{
-    display: inline-block;
-    margin-right: 35px;
-font-family: 'Times New Roman', Times, serif;
-font-weight: bolders;
-text-decoration: solid;
-
- 
+.Nav {
+  display: inline-block;
+  margin-right: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolders;
+  text-decoration: solid;
+  position: sticky;
+  z-index: 9999;
 }
-.liststyle{
-    height: 8vh;
-    color: aliceblue;
-    background-image:url('../movie-background.jpg') ;
-    list-style: none;
-    z-index: 100;
+.liststyle {
+  height: 8vh;
+  color: aliceblue;
+  background-image: url("../movie-background.jpg");
+  list-style: none;
+  z-index: 100;
 }
-.logo{
-    height: 6vh;
-    width: 12vh;
-    margin-top: 1vh;
-    margin-left: 24px;
+.logo {
+  height: 6vh;
+  width: 12vh;
+  margin-top: 1vh;
+  margin-left: 24px;
 }

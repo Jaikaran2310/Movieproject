@@ -11,42 +11,48 @@
 .footer-left{
     display: inline-block;
     font-size: 25px;
-    margin-left: 4vh;
+    margin-left: 7vh;
+    margin-top: 2vh;
           
 }
 .footer-link{
   margin-top: 2.5vh;
 }
 .footer-left h3{
-  margin-top: 4vh;
-  color: red;
+  margin-bottom: 3vh;
+  color: #d10d0d;
   font-size: 43px;
 }
 .footer-left span{
-  color: yellow;
+  color: #4e98bf;
 }
 .footer-center{
  
   display: inline-block;
-  margin-left: 10vh;
-  font-size: 25px;
+  margin-left:25vh;
+  font-size: 20px;
+  height: 10vh;
   
 
 }
 .location{
-  font-size: 43px;
-  margin-top: 3vh;
-  color: blue;
+  font-size: 33px;
+  margin-top: 7vh;
+  color: #4e98bf;
 }
 .footer-right{
 display: inline-block;
-margin-left: 10vh;
-font-size:33;
-margin-bottom: 0px;
+margin-left: 25vh;
+font-size:20;
+margin-top: 3px;
 
 }
 .about{
-font-size: 25px;
-margin-bottom: 3vh;
+  color: #4e98bf;
+font-size: 33px;
+margin-bottom: 8vh;
 
+}
+.margin{
+  margin-top: 8vh;
 }

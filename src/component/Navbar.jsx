@@ -13,7 +13,7 @@ const Nav = () => {
               <Link to="/Home">
                 <img className="logo"
                   src={logo}
-                  alt="F"
+                  alt="Filmy world"
                 />
               </Link>
             </NavLink>

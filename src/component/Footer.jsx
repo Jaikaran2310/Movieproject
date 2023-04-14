@@ -10,9 +10,9 @@ function Footer() {
             Filmy<span>World</span>
           </h3>
           <p className="footer-link">
-            <Link to="home">Home</Link>
-            <Link to="about">About Us</Link>
-            <Link to="contact">Contact Us</Link>
+            <Link to="home">Home </Link>
+            <Link to="about">  About Us</Link>
+            <Link to="contact">   Contact Us</Link>
           </p>
            </div>
           {/* <p className="footer-company-name">
@@ -20,20 +20,24 @@ function Footer() {
   </p>*/}
 
           <div className="footer-center">
-             <p className="location">Location</p>
-              <p>
-                <span>Chandigarh,(U.T)</span>
+             <p>
+              <p className="location">Location</p>
+               Chandigarh,(U.T)
                 India
-              </p>
-              <p>+91-7986388207</p>
+                <p>+91-7986388207</p>
               <p>Jaikaransingh2310@gmail.com</p>
+              </p>
+              
               
             </div>
+            
            
             
-            <div className="footer-right">            
+            <div className="footer-right">    
+            <p className="margin">       
               <span className="about">About the company</span>
-              <p>Filmy World</p> provide you true Review from user.        
+              <p>Filmy World</p> provide you true Review from user.
+              </p>         
           </div> 
        
       </footer>
