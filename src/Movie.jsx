@@ -2,7 +2,7 @@ import React from "react";
 import "./Movie.css";
 import Movies from "./component/Movies";
 import {getDocs} from 'firebase/firestore'
-import {moviesRef} from './firebase/firebase';
+import {moviesRef} from '../src/component/firebase/firebase';
 import { useEffect, useState } from "react";
 
 export const Movie = () => {
