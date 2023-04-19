@@ -4,6 +4,7 @@ import Movies from "./component/Movies";
 import {getDocs} from 'firebase/firestore'
 import {moviesRef} from '../src/component/firebase/firebase';
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Movie = () => {
   const [data,setData] = useState([])
@@ -11,7 +12,7 @@ export const Movie = () => {
     async function getData(){
       const _data = await getDocs(moviesRef);
       _data.forEach((doc) => {
-      setData((prv) => [...prv,doc.data()])
+      setData((prv) => [...prv,{...(doc.data()), id: doc.id}])
       })
 
     }
@@ -22,13 +23,12 @@ export const Movie = () => {
       <div className="main">
         {data.map((element) => {
           return (
-            <Movies
-            // key={element.ID}
-              Title={element.Title}
+          <Link to = {`/detail/${element.id}`}> <Movies
+                Title={element.Title}
               Duration={element.Duration}
               Year={element.Year}
               img={element.img}
-            />
+            /></Link> 
           );
         })}
       </div>

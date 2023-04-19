@@ -9,6 +9,7 @@ import Contact from './component/Contact';
 import Home from './component/Home';
 import About from './component/About';
 import Error from './component/Error';
+import Detail from './component/Detail';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
@@ -21,6 +22,7 @@ root.render(
       <Route path='/About' element={<About/>}/>
       <Route path='/Home' element={<Home/>}/>
       <Route path='*' element={<Error/>}/>
+      <Route path='/detail/:id'element={<Detail/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

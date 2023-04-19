@@ -1,0 +1,41 @@
+.detail {
+  padding: 2%;
+  padding-left: 0%;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../movie-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+.imgg {
+  height: 450px;
+  border: 8px rgb(0, 86, 214);
+  border-radius: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+}
+
+.data {
+  margin-left: 23px;
+  width: 60vw;
+}
+.h11 {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(213, 213, 213);
+  margin-top: 20px;
+}
+.ss {
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(185, 185, 176);
+}
+.pp {
+  color: rgb(224, 225, 218);
+  margin-top: 5px;
+  font-size: 18px;
+}

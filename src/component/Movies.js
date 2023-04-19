@@ -11,7 +11,7 @@ function Movies({ Title, Year, Duration, img }) {
       size={20}
       half={true}
        edit={true}
-       value={5}
+       value={4.5}
       /></h1>
       <p>
         {Title}
